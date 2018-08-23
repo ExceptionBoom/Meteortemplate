@@ -1,0 +1,22 @@
+{
+  "name": "P_qn",
+  "private": true,
+  "scripts": {
+    "start": "meteor run",
+    "rel": "set MONGO_URL=mongodb://username:passworld@XXX/XXX?auto_reconnect=true&&meteor"
+  },
+  "dependencies": {
+    "@babel/runtime": "7.0.0-beta.55",
+    "babel-runtime": "^6.26.0",
+    "bootstrap": "^4.1.3",
+    "jquery": "^3.3.1",
+    "meteor-node-stubs": "^0.4.1"
+  },
+  "meteor": {
+    "mainModule": {
+      "client": "client/main.js",
+      "server": "server/main.js"
+    },
+    "testModule": "tests/main.js"
+  }
+}
